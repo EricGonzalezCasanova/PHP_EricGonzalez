@@ -1,7 +1,5 @@
 <?php
 
-require 'app/'
-
-//echo $greeting;
+require 'app/index.php';
 
 require '/home/alumne/Escriptori/Github/PHP_EricGonzalez/resources/views/index.blade.php';
