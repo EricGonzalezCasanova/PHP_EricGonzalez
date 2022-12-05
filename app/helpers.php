@@ -23,3 +23,10 @@ try {
     echo 'Error de connexió a la base de dades';
     }
 }
+
+function fetchAllTasks($dbh)
+{
+    $statement = $dbh->prepare('SELECT * FROM tasks');
+    $statement->execute();
+    return $statement->FetchAll(PDO::FETCH_CLASS, 'Task');
+}
