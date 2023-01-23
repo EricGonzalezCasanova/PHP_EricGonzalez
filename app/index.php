@@ -6,10 +6,6 @@ require 'config.php';
 
 require 'app/helpers.php';
 
-require 'app/Models/Task.php';
-
-require 'framework/Database/Database.php';
-
 //PDO -> OOP
 
 

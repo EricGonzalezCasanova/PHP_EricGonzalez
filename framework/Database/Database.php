@@ -9,7 +9,7 @@ class Database
     public function __construct($config)
     {
         $this->config = $config;
-        $this->connection = new Connection();
+        $this->connection = new Connection($config);
     }
 
 
