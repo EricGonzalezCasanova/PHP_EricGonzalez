@@ -1,0 +1,17 @@
+{
+    "name": "alumne/php_eric-gonzalez",
+    "description": "Bla bla",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Eric Gonzalez",
+            "email": "ericgonzalez@iesebre.com"
+        }
+    ],
+    "require": {}
+}

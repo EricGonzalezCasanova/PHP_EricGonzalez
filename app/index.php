@@ -1,20 +1,13 @@
 <?php
 
-require 'app/helpers.php';
-
-require 'app/Task.php';
+use framework\Database\Database;
 
 require 'config.php';
 
-try {
-    $dbh = new PDO($config['database']['databasetype'] . ':host=' . $config['database']['host'] . ';dbname=' . $config['database']['name'],
-        $config['database']['user'],
-        $config['database']['password']);
-} catch (\Exception $e) {
-    echo 'Error de connexió a la base de dades';
-}
-$statement = $dbh->prepare('SELECT * FROM tasks;');
+require 'app/helpers.php';
 
-$statement->execute();
+
+$database = new Database($config);
+$tasks = $database->selectAll('tasks');
 
 $greeting = greet();
