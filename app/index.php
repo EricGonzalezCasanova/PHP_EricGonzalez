@@ -13,7 +13,6 @@ try {
 } catch (\Exception $e) {
     echo 'Error de connexió a la base de dades';
 }
-
 $statement = $dbh->prepare('SELECT * FROM tasks;');
 
 $statement->execute();
