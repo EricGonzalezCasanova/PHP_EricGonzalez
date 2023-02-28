@@ -1,7 +1,6 @@
 <?php
 
 require 'vendor/autoload.php';
-
+require 'framework/bootstrap.php';
 require 'app/index.php';
-
-require '/home/alumne/Escriptori/Github/PHP_EricGonzalez/resources/views/index.blade.php';
+require 'resources/views/index.blade.php';

@@ -1,15 +1,21 @@
 {
     "name": "alumne/php_eric-gonzalez",
+    "type": "project",
     "autoload": {
         "classmap": [
             "./"
+        ],
+        "files": [
+            "framework/helpers.php"
         ]
     },
     "authors": [
         {
-            "name": "EricGonzalezCasanova",
+            "name": "Eric Gonzalez",
             "email": "ericgonzalez@iesebre.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
 }
