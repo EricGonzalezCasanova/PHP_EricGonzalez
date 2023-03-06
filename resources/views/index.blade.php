@@ -23,18 +23,18 @@
             <th>Id</th>
             <th>Title</th>
             <th>Description</th>
-            <th>completed</th>
+            <th>Completed</th>
         </tr>
 
         <?php foreach ($tasks as $task): ?>
-            <tr>
-                <td><?=$tasks->id;?>></td>
-                <td><?=$tasks->title;?>></td>
-                <td><?=$tasks->description;?>></td>
-                <td><?=$tasks->completed;?>></td>
-            </tr>
+        <tr>
+            <td><?=$task->id;?></td>
+            <td><?=$task->title;?></td>
+            <td><?=$task->description;?></td>
+            <td><?=$task->completed;?></td>
+        </tr>
+        <?php endforeach; ?>
 
-          <?php endforeach; ?>
     </table>
 </header>
 </body>
