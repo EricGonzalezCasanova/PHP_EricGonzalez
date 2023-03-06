@@ -9,3 +9,4 @@ Projecte PHP_For_Laravel
 * **v0.4** - *Separar la configuració (config.php) del codi -> implementat la 0 de SOLID -> Open TO Extension closed to modification*
 * **v0.5** - *Refactorització POO, afegit composer.json i autoload. Namespaces*
 * **v0.6** - *Container -> Implementar D de SOLID Dependency Inversion Principle -> Inverter -> Inversor Container -> APP*
+* **v0.7** - *v0.7: Fitxer .env -> Exemples ús de paquets PHP Composer de tercers.
